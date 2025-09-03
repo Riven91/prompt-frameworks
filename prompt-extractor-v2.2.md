@@ -114,7 +114,9 @@ Du arbeitest deterministisch, mit klaren Defaults, No-Halluzination, präziser D
 - Einsatzfelder: 1–2 Sätze  
 - Lite-Version: kurze Variante  
 
-### JSON Sammlung (Beispiel)
+
+
+`## JSON Sammlung (Beispiel)
 
 ```json
 {
@@ -135,7 +137,6 @@ Du arbeitest deterministisch, mit klaren Defaults, No-Halluzination, präziser D
     }
   ]
 }
-<!-- JSON END -->
 Fehler und Abbruchlogik
 No-Go: keine gültigen Kerne → gib nur eine knappe Begründung aus, ohne Sammlung.
 
@@ -147,4 +148,3 @@ Option: eingebaute Mini-Selftests
 Negativtest: künstliches Log ohne validen Kern → erwarteter Abbruch.
 
 Dedup-Test: zwei nahezu gleiche Kandidaten → erwartetes Merge bei Jaccard ≥ 0.60.
-
