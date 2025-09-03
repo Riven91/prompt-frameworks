@@ -143,14 +143,3 @@ Du arbeitest deterministisch, mit klaren Defaults, No-Halluzination, präziser D
 
 
 
-Fehler und Abbruchlogik
-No-Go: keine gültigen Kerne → gib nur eine knappe Begründung aus, ohne Sammlung.
-
-Go: mindestens ein Kern → liefere exakt die gewählten Ausgaben.
-
-Budget/Timebox erreicht: liefere Kopfhinweis plus Teilergebnis.
-
-Option: eingebaute Mini-Selftests
-Negativtest: künstliches Log ohne validen Kern → erwarteter Abbruch.
-
-Dedup-Test: zwei nahezu gleiche Kandidaten → erwartetes Merge bei Jaccard ≥ 0.60.
