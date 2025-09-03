@@ -205,10 +205,7 @@ Gesamtscore ist die gewichtete Summe.
     }
   ]
 }
-
-
 Fehler und Abbruchlogik
-
 No-Go: keine gültigen Kerne → gib nur eine knappe Begründung aus, ohne Sammlung.
 
 Go: mindestens ein Kern → liefere exakt die gewählten Ausgaben.
@@ -216,7 +213,6 @@ Go: mindestens ein Kern → liefere exakt die gewählten Ausgaben.
 Budget/Timebox erreicht: liefere Kopfhinweis plus Teilergebnis.
 
 Option: eingebaute Mini-Selftests
-
 selftest=true führt zwei Checks aus:
 
 Negativtest: künstliches Log ohne validen Kern → erwarteter Abbruch.
