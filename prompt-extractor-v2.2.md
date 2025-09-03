@@ -137,6 +137,12 @@ Du arbeitest deterministisch, mit klaren Defaults, No-Halluzination, präziser D
     }
   ]
 }
+
+
+
+
+
+
 Fehler und Abbruchlogik
 No-Go: keine gültigen Kerne → gib nur eine knappe Begründung aus, ohne Sammlung.
 
