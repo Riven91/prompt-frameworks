@@ -179,9 +179,7 @@ Einsatzfelder: 1–2 Sätze
 
 Lite-Version: kurze Variante
 
-### JSON Sammlung (Beispiel)
-
-```json
+JSON Sammlung (Beispiel)
 {
   "meta": {
     "run_id": "2025-08-13T00:00:00Z-ABC123",
@@ -212,8 +210,11 @@ Lite-Version: kurze Variante
       "prompt": "Analysiere einen gegebenen Text und extrahiere drei Kernthemen. Formuliere zu jedem Kernthema genau eine klärende Frage.",
       "strengths": "Klarer Aufbau und hohe Wiederverwendbarkeit.",
       "use_cases": "Archivierung, Training, Prompt-Bibliotheken",
-      "lite": "Extrahiere drei Kernthemen und je eine Frag
-
+      "lite": "Extrahiere drei Kernthemen und je eine Frage.",
+      "status": "neu"
+    }
+  ]
+}
 
 Fehler und Abbruchlogik
 
